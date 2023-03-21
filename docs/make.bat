@@ -8,7 +8,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD="C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Scriptssphinx-build.exe"
 )
 set SOURCEDIR=.
-set BUILDDIR=_build
+set BUILDDIR=build
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
