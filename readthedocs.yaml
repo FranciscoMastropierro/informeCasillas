@@ -1,11 +1,11 @@
 version: 1
 
 build:
-  image: main
+  image: testing
 
 sphinx:
   configuration: /docs/conf.py
-  
+
 python:
   version: "3.11.1"
   install:
