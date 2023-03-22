@@ -1,7 +1,2 @@
 furo
 myst-parser
-sphinx
-exchangelib
-dotenv
-openpyxl
-datetime
