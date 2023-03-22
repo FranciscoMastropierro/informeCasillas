@@ -8,8 +8,6 @@ from exchangelib import (
 )
 from dotenv import dotenv_values
 
-__name__ == '__main__' 
-
 config = dotenv_values(".env") 
 
 def Cuenta(mail):
