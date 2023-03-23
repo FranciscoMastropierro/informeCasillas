@@ -1,6 +1,6 @@
 #Agrego Path donde buscara los modulos a documentar.
 import os, sys
-sys.path.append(os.path.abspath('../informeCasillas'))
+sys.path.append(os.path.abspath('../../informeCasillas'))
 
 # Configuration file for the Sphinx documentation builder.
 #

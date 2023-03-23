@@ -1,10 +1,4 @@
-"""
-Devuelve la conexión con la cuenta de correo pasada por parametro.
 
-:param mail: Debe ser un correo.
-:return: Account
-:rtype: exchangelib.Account
-"""
 from exchangelib import (
     Account,
     Identity,
@@ -18,7 +12,13 @@ from dotenv import dotenv_values
 config = dotenv_values(".env") 
 
 def Cuenta(mail):
+        """
+        Devuelve la conexión con la cuenta de correo pasada por parametro.
 
+        :param mail: Debe ser un correo.
+        :return: Account
+        :rtype: exchangelib.Account
+        """
         client_id = list(config.items())[0][1]
         tenant_id = list(config.items())[1][1]
         secret_value = list(config.items())[2][1]
