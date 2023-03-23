@@ -1,4 +1,0 @@
-exchangelib
-openpyxl
-datetime
-dotenv
