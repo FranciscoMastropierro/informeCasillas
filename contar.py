@@ -1,4 +1,10 @@
-from exchangelib import Credentials, Account, Folder, FileAttachment, ItemAttachment, errors
+"""
+Informe Casillas - Python scritp para recorrer casillas y ver cantidad de correos.
+
+"""
+__version__ = '0.1.0'
+
+from exchangelib import errors
 from EWS_Conection import Cuenta
 from sucursales import lista_sucursales, list_back, list_back2
 from openpyxl import Workbook
